@@ -1,4 +1,4 @@
-FROM inbobmk/r2nk
+FROM inbobmk/rn2k
 
 ## This handle reaches Thierry
 MAINTAINER "Thierry Onkelinx" thierry.onkelinx@inbo.be
