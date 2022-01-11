@@ -9,7 +9,7 @@
     }
   ],
   "upload_type": "software",
-  "access_rights": "open",
+  "access_right": "open",
   "license": "GPL-3.0",
   "communities": [
     {
