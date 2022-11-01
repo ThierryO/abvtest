@@ -1,6 +1,4 @@
 {
-  "doi": "10.5281/zenodo.5814813",
-  "url": "https://inbo.github.io/patrijs-steekproefkader/",
   "title": "Sampling frame for partridge (Perdrix perdrix) in Flanders",
   "version": "2023.1",
   "description": "Since 2008, partridge hunting in Flanders has been subject to a number of conditions.\nThe first condition states compliance with an average density of at least 3 breeding pairs per 100 ha of open space.\nThe Research Institute for Nature and Forest ([INBO](https://www.vlaanderen.be/inbo/en)) is responsible for the calculation of these densities and advises the Agency for Nature and Forests ([ANB](https://www.natuurenbos.be/)) on this.\n\nThis repository contains the source code to generate the layer with open space within [hunting grounds](https://doi.org/10.5281/zenodo.5584203) in Flanders.\nThe selection is based on relevant categories of the [OpenStreetMap](https://openstreetmap.org) information.\n\nWe aim to make the layer reproducible by making the code publicly available under an open source license.\nThe code itself requires only freeware open source software ([R](https://www.r-project.org/) and [QGIS](https://qgis.org)).\nThe OpenStreetMap database updates continuously.\nRerunning the code on the current database might yield a different layer.\nTherefore we also republish the [snapshot](https://doi.org/10.5281/zenodo.5792948) of the OpenStreetMap data we used.\nWhen we need to update the open space layer, we will add an updated snapshot as a new version.\nHaving both the code and the data available under version control, allows to recreate both the most recent version as any older version.\n",
@@ -18,20 +16,20 @@
       "name": "Onkelinx, Thierry",
       "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0001-8804-4216",
-      "role": "ContactPerson"
+      "type": "ContactPerson"
     },
     {
       "name": "Stas, Michiel",
       "affiliation": "Agentschap voor Natuur en Bos (ANB); Research Institute for Nature and Forest (INBO)",
-      "role": "ProjectMember"
+      "type": "ProjectMember"
     },
     {
       "name": "Research Institute for Nature and Forest",
-      "role": "CopyrightHolder"
+      "type": "CopyrightHolder"
     },
     {
       "name": "Research Institute for Nature and Forest",
-      "role": "Funder"
+      "type": "Funder"
     }
   ],
   "creators": [
