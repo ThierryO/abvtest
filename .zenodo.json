@@ -7,7 +7,6 @@
     "monitoring",
     "habitat"
   ],
-  "source": "https://github.com/inbo/checklist",
   "upload_type": "software",
   "license": "CC-BY-4.0",
   "language": "eng",
@@ -25,7 +24,7 @@
     },
     {
       "name": "Research Institute for Nature and Forest",
-      "type": "CopyrightHolder"
+      "type": "RightsHolder"
     },
     {
       "name": "Research Institute for Nature and Forest",
