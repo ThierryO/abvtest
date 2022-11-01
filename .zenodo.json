@@ -13,12 +13,17 @@
   "upload_type": "software",
   "license": "CC-BY-4.0",
   "language": "eng",
-  "contributor": [
+  "contributors": [
     {
       "name": "Onkelinx, Thierry",
-      "affliliation": "Research Institute for Nature and Forest (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0001-8804-4216",
       "role": "ContactPerson"
+    },
+    {
+      "name": "Stas, Michiel",
+      "affiliation": "Agentschap voor Natuur en Bos (ANB); Research Institute for Nature and Forest (INBO)",
+      "role": "ProjectMember"
     },
     {
       "name": "Research Institute for Nature and Forest",
@@ -32,12 +37,12 @@
   "creators": [
     {
       "name": "Onkelinx, Thierry",
-      "affliliation": "Research Institute for Nature and Forest (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0001-8804-4216"
     },
     {
       "name": "Carmen, Raïsa",
-      "affliliation": "Research Institute for Nature and Forest (INBO)",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
       "orcid": "0000-0003-1025-8702"
     }
   ],
