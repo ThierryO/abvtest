@@ -27,7 +27,6 @@ jobs:
           else
             git checkout -b gh-pages
             git rm -rf --quiet .
-            rm -R *
           fi
           cp ../index.html index.html
           git add index.html
