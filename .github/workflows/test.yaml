@@ -10,8 +10,10 @@ jobs:
     name: "check package"
     steps:
       - name: testdeploy
+        env:
+          MY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git clone https://oauth2:$GITHUB_TOKEN@github.com/thierryo/abvtest check
+          git clone https://oauth2:$MY_TOKEN@github.com/thierryo/abvtest check
           cd check
           git config user.name "Checklist bot"
           git config user.email "checklist@inbo.be"
