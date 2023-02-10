@@ -5,9 +5,11 @@ on:
 permissions:
   contents: write
 jobs:
-  test:
+  check-package:
+    runs-on: ubuntu-latest
+    name: "check package"
     steps:
-      - name: deploy
+      - name: testdeploy
         run: |
           git clone https://oauth2:$GITHUB_TOKEN@github.com/thierryo/abvtest check
           cd check
