@@ -2,6 +2,8 @@ on:
   push:
     tags:
       - 'v*'
+permissions:
+  contents: write
 
 name: Create Release
 
@@ -20,8 +22,6 @@ jobs:
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
-        permissions:
-          contents: write
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
